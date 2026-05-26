@@ -6,7 +6,7 @@
 
 ![VoteTrack Banner](assets/images/banner.png)
 
-**Tap. Select. Vote. — A $5 voting machine that actually works.**
+**Tap. Select. Vote. — A 1200Tk voting machine that actually works.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-NodeMCU%20ESP8266-blue.svg)](https://www.nodemcu.com/)
@@ -23,7 +23,7 @@
 
 RFID-EVM is a low-cost, RFID-based electronic voting machine built as an HCI course project. It strips the voting interaction down to its bare minimum — **tap a card, pick a candidate, hold to confirm.** No touchscreen, no keyboard, no complexity.
 
-Every vote is synced live to Google Sheets and visualised on a real-time web dashboard. The entire hardware build costs under **$5**, yet it covers the core requirements of a real voting system — duplicate prevention, admin reset with audit logging, and live result tracking.
+Every vote is synced live to Google Sheets and visualised on a real-time web dashboard. The entire hardware build costs under **TK 1200**, yet it covers the core requirements of a real voting system — duplicate prevention, admin reset with audit logging, and live result tracking.
 
 > Built for the **Human Computer Interaction** course at **AIUB**  
 > Faculty: **Dr. Muhammad Firoz Mridha**  
@@ -63,14 +63,14 @@ Every vote is synced live to Google Sheets and visualised on a real-time web das
 
 | Component | Quantity | Approx. Cost |
 |---|---|---|
-| NodeMCU ESP8266 | 1 | ~700 Tk |
-| RC522 RFID Reader + Cards | 1 set | ~300 Tk |
-| SSD1306 OLED 128x64 (I2C) | 1 | ~250 Tk |
-| Passive Buzzer | 1 | ~20 TK |
-| LED + 220Ω resistor | 1 | ~20 Tk |
-| Push Button | 1 | ~$5 Tk |
-| Jumper Wires + Breadboard | — | ~220 Tk |
-| **Total** | | **1515 TK** |
+| NodeMCU ESP8266 | 1 | ~350 Tk |
+| RC522 RFID Reader + Cards | 1 set | ~200 Tk |
+| SSD1306 OLED 128x64 (I2C) | 1 | ~350 Tk |
+| Passive Buzzer | 1 | ~15 TK |
+| LED + 220Ω resistor | 1 | ~5 Tk |
+| Push Button | 1 | ~5 Tk |
+| Jumper Wires + Breadboard | — | ~260 Tk |
+| **Total** | | **1185 TK** |
 
 ---
 
@@ -274,8 +274,8 @@ YOUR_SCRIPT_URL?action=reset_log
 | Name | Role |
 |---|---|
 | **Arafat Hossain** | Hardware, Firmware, Backend |
-| **Al Imran Alif** | Hardware, Testing |
-| **Rajarshi Mondal** | Hardware, Testing |
+| **Al Imran Alif** | Hardware, Frontend |
+| **Rajarshi Mondal** | Report, Testing |
 | **TOUSIF TARIK** | Hardware, Testing |
 
 > **Faculty:** Dr. Muhammad Firoz Mridha  
